@@ -59,7 +59,7 @@ A PHP application to store and retrieve data using a MySQL database. This projec
 
 ### Store Data
 
-- **Endpoint**: `/store.php`
+- **Endpoint**: `/save_data.php`
 - **Method**: POST
 - **Input**: JSON
 
@@ -107,7 +107,7 @@ A PHP application to store and retrieve data using a MySQL database. This projec
 
 1. **Store Data**:
     - Method: POST
-    - URL: `http://yourdomain.com/store.php`
+    - URL: `http://yourdomain.com/save_data.php`
     - Headers: Content-Type: application/json
     - Body: JSON
       ```json
